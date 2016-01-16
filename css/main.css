@@ -287,7 +287,7 @@ body {
 	direction: ltr;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Rambla', 'Helvetica Narrow', Arial, sans-serif;
+	font-family: 'Hind Siliguri', 'Helvetica Narrow', Arial, sans-serif;
 	font-weight: 700;
 }
 *, *:before, *:after {
@@ -357,7 +357,7 @@ header h1 {
 	text-transform: uppercase;
 }
 header p {
-	font: 1em 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+	font: 1em 'Hind Siliguri', 'Helvetica Narrow', Arial, sans-serif;
 	font-weight: 400;
 	color: #666;
 	text-transform: uppercase;
@@ -372,7 +372,7 @@ nav ul, nav li {
 	min-height: 0;
 }
 nav li a {
-	font: 1em 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+	font: 1em 'Hind Siliguri', 'Helvetica Narrow', Arial, sans-serif;
 	color: white;
 	text-decoration: none;
 	letter-spacing: 0.1em;
@@ -451,7 +451,7 @@ figcaption {
 	font-style: italic;
 }
 blockquote {
-	font: 1.5em 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+	font: 1.5em 'Hind Siliguri', 'Helvetica Narrow', Arial, sans-serif;
 	font-weight: 400;
 	color: #6d6d6d;
 	padding-left: 1em;
@@ -470,7 +470,7 @@ article footer {
 	padding: 1em 0;
 }
 dt {
-	font-family: 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+	font-family: 'Hind Siliguri', 'Helvetica Narrow', Arial, sans-serif;
 	font-size: 1.2em;
 	font-weight: 400;
 	color: #42659A;
@@ -665,7 +665,7 @@ nav li a:hover {
 .toggle-label {
 	display: block;
 	background: #42659A;
-	font: 0.8em 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+	font: 0.8em 'Hind Siliguri', 'Helvetica Narrow', Arial, sans-serif;
 	text-align: center;
 	letter-spacing: 0.1em;
 	color: white;
@@ -739,7 +739,7 @@ header h1 {
 	font-size: 3em;
 }
 header p {
-	font: 1em 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+	font: 1em 'Hind Siliguri', 'Helvetica Narrow', Arial, sans-serif;
 	font-weight: 400;
 	color: #666;
 	text-transform: uppercase;
@@ -764,7 +764,7 @@ nav li {
 	display: inline-block;
 }
 nav li a {
-	font: 1em 'Oswald', 'Helvetica Narrow', Arial, sans-serif;
+	font: 1em 'Hind Siliguri', 'Helvetica Narrow', Arial, sans-serif;
 	color: white;
 	background: #42659A;
 	margin-right: 0.5em;
