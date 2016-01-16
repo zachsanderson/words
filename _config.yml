@@ -1,0 +1,26 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Zach Sanderson
+description: "Personal site for Zach Sanderson, using Jekyll"
+baseurl: "/jekyll-for-designers"
+url: "http://zachsanderson.github.io/jekyll-for-designers" # the base hostname & protocol for your site
+twitter_username: zachsanderson
+github_username:  zachsanderson
+tagline: "A basic guide to Jekyll"
+
+# Gems
+gems: [jekyll-paginate]
+
+# Build settings
+markdown: kramdown
+kramdown:
+    auto_ids: false
+paginate: 4
+paginate_path: '/words/page:num/'
+permalink: /words/:title
