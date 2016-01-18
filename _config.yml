@@ -12,7 +12,7 @@ baseurl: ""
 url: "http://zachsanderson.com" # the base hostname & protocol for your site
 twitter_username: zachsanderson
 github_username:  zachsanderson
-tagline: "A basic guide to Jekyll"
+tagline: ""
 
 # Gems
 gems: [jekyll-paginate]
