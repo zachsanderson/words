@@ -8,8 +8,8 @@
 # Site settings
 title: Zach Sanderson
 description: "Personal site for Zach Sanderson"
-baseurl: ""
-url: "http://zachsanderson.com" # the base hostname & protocol for your site
+baseurl: "/words"
+url: "http://zachsanderson.github.io/words" # the base hostname & protocol for your site
 twitter_username: zachsanderson
 github_username:  zachsanderson
 tagline: ""
