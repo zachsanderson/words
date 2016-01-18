@@ -7,9 +7,9 @@
 
 # Site settings
 title: Zach Sanderson
-description: "Personal site for Zach Sanderson, using Jekyll"
-baseurl: "/jekyll-for-designers"
-url: "http://zachsanderson.github.io/jekyll-for-designers" # the base hostname & protocol for your site
+description: "Personal site for Zach Sanderson"
+baseurl: ""
+url: "http://zachsanderson.com" # the base hostname & protocol for your site
 twitter_username: zachsanderson
 github_username:  zachsanderson
 tagline: "A basic guide to Jekyll"
