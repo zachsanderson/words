@@ -355,6 +355,7 @@ header h1 {
 	line-height:1;
 	margin: 0;
 	text-transform: uppercase;
+    float: left;
 }
 header p {
 	font: 1em 'Hind Siliguri', 'Helvetica Narrow', Arial, sans-serif;
@@ -623,7 +624,7 @@ aside li {
 /* -------------------------------------------------- 
    Smaller screen styles
 -----------------------------------------------------*/
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 750px) {
 
 .right, .left {
 	float: none;
@@ -631,15 +632,19 @@ aside li {
 /* -------------------------------------------------- 
    top navigation styles
 -----------------------------------------------------*/
+header {
+    margin-bottom: 0;
+}
 nav {
 	background: none;
 	margin-bottom: 1em;
+    clear: both;
 }
 nav ul {
 	display: none;
 }
 nav li {
-	background: #42659A;
+	background: gray;
 	margin-bottom: .2em;
 }
 nav li:hover {
@@ -657,6 +662,7 @@ nav li a {
 	text-align: center;
 	max-width: 100%;
 	width:100%;
+    color: black;
 }
 nav li a:hover {
 	color: white;
@@ -664,7 +670,8 @@ nav li a:hover {
 /*toggle check styles*/
 .toggle-label {
 	display: block;
-	background: #42659A;
+    float: right;
+	background: #4d4d4d;
 	font: 0.8em 'Hind Siliguri', 'Helvetica Narrow', Arial, sans-serif;
 	text-align: center;
 	letter-spacing: 0.1em;
@@ -678,7 +685,7 @@ nav li a:hover {
 	display: none;
 }
 #menu-toggle:checked + .toggle-label {
-	background: #4d4d4d;
+	background: gray;
 }
 #menu-toggle:checked + .toggle-label span {
 	display: none;
@@ -686,7 +693,7 @@ nav li a:hover {
 #menu-toggle:checked + .toggle-label:before {
 	content: 'close';
 }
-#menu-toggle:checked ~ ul {
+#menu-toggle:checked ~ nav ul {
 	display: block;
 }
 
@@ -701,10 +708,20 @@ dd{
 	margin-bottom: 1em;
 }
 }
+
+@media only screen and (max-width: 475px) {
+
+.toggle-label {
+    float: left;
+    clear: both;
+}
+
+}
+
 /* -------------------------------------------------- 
    Larger screen styles
 -----------------------------------------------------*/
-@media only screen and (min-width: 951px) {
+@media only screen and (min-width: 751px) {
 /* -------------------------------------------------- 
    layout styles
 -----------------------------------------------------*/
@@ -712,7 +729,7 @@ html {
 	background: #6d6d6d;
 }
 body {
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
 }
 .page-header {
@@ -797,4 +814,25 @@ a.more {
 .legal {
 	text-align: center;
 }
+}
+/* -------------------------------------------------- 
+   Middle screen styles
+-----------------------------------------------------*/
+@media only screen and (min-width: 751px) and (max-width: 900px) {
+
+
+/* -------------------------------------------------- 
+   top navigation styles
+-----------------------------------------------------*/
+
+nav li a {
+    margin-right: 0;
+    padding: 0.1em 0.3em;    
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+
 }
