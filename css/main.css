@@ -299,11 +299,11 @@ p {
 	margin: 0 0 1em 0;
 }
 a {
-	color: #42659A;
+	color: #61BD61;
 	line-height: inherit;
 }
 a:hover {
-	color: #213149;
+	color: #4D964D;
 }
 img, object, embed {
 	max-width: 100%;
@@ -360,7 +360,7 @@ header h1 {
 header p {
 	font: 1em 'Hind Siliguri', 'Helvetica Narrow', Arial, sans-serif;
 	font-weight: 400;
-	color: #666;
+	color: #808080;
 	text-transform: uppercase;
 }
 /* -------------------------------------------------- 
@@ -374,7 +374,7 @@ nav ul, nav li {
 }
 nav li a {
 	font: 1em 'Hind Siliguri', 'Helvetica Narrow', Arial, sans-serif;
-	color: gray;
+	color: #808080;
 	text-decoration: none;
 	letter-spacing: 0.1em;
 }
@@ -394,13 +394,13 @@ article h2 {
 	font-size: 2em;
 	font-weight: 400;
 	line-height:1.2;
-	color: #42659A;
+	color: #61BD61;
 	margin-bottom:0.2em;
 }
 article h3 {
 	font-weight: 400;
 	font-size: 1.4em;
-	color: #42659A;
+	color: #61BD61;
 	margin-bottom: 0;
 }
 article h2 a {
@@ -409,7 +409,7 @@ article h2 a {
 article time {
 	display: block;
 	font-size: 0.8em;
-	color: #666;
+	color: #808080;
 	margin-bottom: 0;
 }
 a.more {
@@ -432,8 +432,8 @@ pre {
 	color: white;
 	padding: .5em 1em;
 	margin-bottom: 1em;
-	border-left: 1em solid #42659A;
-	background: #666;
+	border-left: 1em solid #61BD61;
+	background: #808080;
 	white-space: pre-wrap;
 	white-space: -moz-pre-wrap;
 	white-space: -pre-wrap;
@@ -474,7 +474,7 @@ dt {
 	font-family: 'Hind Siliguri', 'Helvetica Narrow', Arial, sans-serif;
 	font-size: 1.2em;
 	font-weight: 400;
-	color: #42659A;
+	color: #61BD61;
 	margin-bottom:0;
 }
 dd {
@@ -532,7 +532,7 @@ dd {
 .tag-cloud a {
 	text-decoration: none;
 	font-size: 0.8em;
-	background: #42659A;
+	background: #61BD61;
 	color: white;
 	padding: 0.125em 0.5em;
 	border-radius: 0.25em;
@@ -558,7 +558,7 @@ aside {
 	padding: 0 1em 0;
 }
 aside h3 {
-	color: #4d4d4d;
+	color: #4D4D4D;
 	font-size: 1.4em;
 	margin-top: 1em;
 	margin-bottom: .4em;
@@ -602,7 +602,7 @@ aside li {
    main footer styles
 -----------------------------------------------------*/
 .page-footer {
-	background: #4d4d4d;
+	background: #4D964D;
 	padding: 2em 1em;
 	margin-top: 1em;
 	color: white;
@@ -644,11 +644,11 @@ nav ul {
 	display: none;
 }
 nav li {
-	background: gray;
+	background: #808080;
 	margin-bottom: .2em;
 }
 nav li:hover {
-	background: #333;
+	background: #61BD61;
 }
 nav li a {
 	font-size: 1.2em;
@@ -671,7 +671,7 @@ nav li a:hover {
 .toggle-label {
 	display: block;
     float: right;
-	background: #4d4d4d;
+	background: #808080;
 	font: 0.8em 'Hind Siliguri', 'Helvetica Narrow', Arial, sans-serif;
 	text-align: center;
 	letter-spacing: 0.1em;
@@ -685,7 +685,7 @@ nav li a:hover {
 	display: none;
 }
 #menu-toggle:checked + .toggle-label {
-	background: gray;
+	background: #808080;
 }
 #menu-toggle:checked + .toggle-label span {
 	display: none;
@@ -762,7 +762,7 @@ header h1 {
 header p {
 	font: 1em 'Hind Siliguri', 'Helvetica Narrow', Arial, sans-serif;
 	font-weight: 400;
-	color: #666;
+	color: #808080;
 	text-transform: uppercase;
 }
 /* -------------------------------------------------- 
@@ -787,7 +787,7 @@ nav li {
 nav li a {
 	font: 1em 'Hind Siliguri', 'Helvetica Narrow', Arial, sans-serif;
 	/*color: white;
-	background: #42659A;*/
+	background: #61BD61;*/
 	margin-right: 0.5em;
 	padding: .25em .4em;
 	display: inline-block;
@@ -796,7 +796,7 @@ nav li a {
 }
 nav li a:hover {
 	color: white;
-	background: #333;
+	background: #61BD61;
 }
 /* -------------------------------------------------- 
    article styles
