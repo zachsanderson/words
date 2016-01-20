@@ -356,16 +356,13 @@ header h1 {
 	margin: 0;
 	text-transform: uppercase;
     float: left;
-    display: none;
+    display: inline;
 }
 header p {
 	font: 1em 'Hind Siliguri', 'Helvetica Narrow', Arial, sans-serif;
 	font-weight: 400;
 	color: #808080;
 	text-transform: uppercase;
-}
-header .logo {
-    display: inline;
 }
 /* Wrap header in .container for positioning of SVG*/
 .page-header .container {
@@ -378,6 +375,7 @@ header .logo {
     top: 0;
     height: 45px;
     width: 45px;
+    display: none;
 }
 .page-header .logo svg {
     
@@ -728,13 +726,16 @@ dd{
 }
 }
 
-@media only screen and (min-width: 476px) {
+@media only screen and (max-width: 475px) {
 /*Hide logo and display name on larger than mobile screen*/
-header .logo {
-    display: none;
+.page-header .logo {
+    display: inline;
 }
 header h1 {
-    display: inline;
+    display: none;
+}
+.toggle-label {
+    padding: 1em 0;
 }
 }
 
