@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 502 502" enable-background="new 0 0 502 502" xml:space="preserve">
+<g id="Guides" display="none">
+</g>
+<g id="Base_Shapes" display="none">
+	<path display="inline" d="M251,401l150-150L251,101L101,251L251,401z M486.1,165.9C451.3,69.7,359.2,1,251,1
+		c-17.9,0-35.3,1.9-52.1,5.5l223.3,223.3L486.1,165.9z M15.9,336.1C50.7,432.3,142.8,501,251,501c17.9,0,35.3-1.9,52.1-5.5
+		L79.8,272.2L15.9,336.1z M495.5,198.9L272.2,422.2l63.9,63.9C432.3,451.3,501,359.2,501,251C501,233.1,499.1,215.7,495.5,198.9z
+		 M165.9,15.9C69.7,50.7,1,142.8,1,251c0,17.9,1.9,35.3,5.5,52.1L229.8,79.8L165.9,15.9z"/>
+	
+		<rect x="144.9" y="144.9" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -103.9676 251)" display="inline" fill="#FFFFFF" width="212.1" height="212.1"/>
+	
+		<rect x="222.7" y="112.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -26.1859 218.7818)" display="inline" width="56.6" height="56.6"/>
+	
+		<rect x="332.7" y="222.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -71.7494 328.7818)" display="inline" width="56.6" height="56.6"/>
+	
+		<rect x="112.7" y="222.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -136.1859 173.2183)" display="inline" fill="#61BD61" width="56.6" height="56.6"/>
+	<polygon display="inline" points="211,321 211,361 251,401 291,361 291,321 	"/>
+</g>
+<g id="Fused_Art">
+	<g>
+		<path d="M165.9,15.9C69.7,50.7,1,142.8,1,251c0,17.9,1.9,35.3,5.5,52.1L229.8,79.8L165.9,15.9z"/>
+		<path d="M486.1,165.9C451.3,69.7,359.2,1,251,1c-17.9,0-35.3,1.9-52.1,5.5l223.3,223.3L486.1,165.9z"/>
+		<path d="M495.5,198.9L272.2,422.2l63.9,63.9C432.3,451.3,501,359.2,501,251C501,233.1,499.1,215.7,495.5,198.9z"/>
+		<path d="M15.9,336.1C50.7,432.3,142.8,501,251,501c17.9,0,35.3-1.9,52.1-5.5L79.8,272.2L15.9,336.1z"/>
+		<rect x="222.7" y="112.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -26.1859 218.7818)" width="56.6" height="56.6"/>
+		<rect x="332.7" y="222.7" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 793.7493 173.2183)" width="56.6" height="56.6"/>
+		<rect x="112.7" y="222.7" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 418.1859 328.7817)" width="56.6" height="56.6"/>
+		<polygon points="211,361 251,401 291,361 291,321 211,321 		"/>
+	</g>
+</g>
+</svg>
