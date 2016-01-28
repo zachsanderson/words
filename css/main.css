@@ -1,5 +1,6 @@
 /* add syntax highlight styles */
 @import url("syntax-highlighting.css");
+@import url(https://fonts.googleapis.com/css?family=Hind+Siliguri:400,700|Amiri);
 
 
 /* Portions of styles taken from or modified from normalize.css */
@@ -520,6 +521,19 @@ dd {
 .next:after {
 	content: '\00a0\00bb';
 }
+.featured {
+    width: 100%;
+}
+.featuredlinks {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+}
+.featuredlinks li {
+    flex: 0 1 auto;
+    width: calc(33% - 1em);
+}
 /* -------------------------------------------------- 
    archive styles
 -----------------------------------------------------*/
@@ -755,8 +769,7 @@ body {
 	margin: 0 auto;
 }
 .page-header {
-	padding: 0 3%;
-	padding-top: 1em;
+	padding: 1em 3% 1em 3%;	
 }
 .posts, .archive {
 	float: right;
@@ -791,8 +804,7 @@ header p {
    top navigation styles
 -----------------------------------------------------*/
 nav {
-	background: none;
-	margin-bottom: 2em;
+	background: none;	
 }
 #menu-toggle, .toggle-label {
 		display: none;
