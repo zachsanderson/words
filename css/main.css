@@ -531,7 +531,8 @@ dd {
     padding-left: 0;
 }
 .featuredlinks li {
-    flex: 0 1 32%;    
+    flex: 0 1 32%;   
+    padding-bottom: 2em; 
 }
 .featuredlinks a {
     text-decoration: none;
@@ -542,6 +543,21 @@ dd {
 }
 .featuredlinks a:hover h3, a:hover p {
     color: #61BD61;
+}
+.postsandphotos {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+}
+.postsandphotos section {
+    flex: 0 1 47%;
+    padding: 0;
+}
+.postsandphotos a {
+    text-decoration: none;
+}
+.postsandphotos h3 {
+    margin: 0;    
 }
 
 /* -------------------------------------------------- 
@@ -676,7 +692,7 @@ aside li {
 
 .featuredlinks li {
     flex: 0 1 auto;
-    padding-bottom: 2em;
+    border-bottom: 1px solid #aaa;   
 }
 /* -------------------------------------------------- 
    top navigation styles
