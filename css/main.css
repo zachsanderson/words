@@ -522,7 +522,7 @@ dd {
 	content: '\00a0\00bb';
 }
 .featured {
-    width: 100%;
+    padding: 0 3%;
 }
 .featuredlinks {
     list-style: none;
@@ -531,9 +531,19 @@ dd {
     padding-left: 0;
 }
 .featuredlinks li {
-    flex: 0 1 auto;
-    width: calc(33% - 1em);
+    flex: 0 1 32%;    
 }
+.featuredlinks a {
+    text-decoration: none;
+}
+.featuredlinks h3, p {
+    margin: 0;
+    color: #4d4d4d;
+}
+.featuredlinks a:hover h3, a:hover p {
+    color: #61BD61;
+}
+
 /* -------------------------------------------------- 
    archive styles
 -----------------------------------------------------*/
@@ -660,6 +670,14 @@ aside li {
 .right, .left {
 	float: none;
 }
+.featuredlinks {
+    flex-wrap: wrap;
+}
+
+.featuredlinks li {
+    flex: 0 1 auto;
+    padding-bottom: 2em;
+}
 /* -------------------------------------------------- 
    top navigation styles
 -----------------------------------------------------*/
@@ -760,11 +778,8 @@ header h1 {
 /* -------------------------------------------------- 
    layout styles
 -----------------------------------------------------*/
-html {
-	background: #6d6d6d;
-}
 body {
-	width: 90%;
+	width: 95%;
     max-width: 1600px;
 	margin: 0 auto;
 }

@@ -10,26 +10,24 @@ layout: default
         <img src="images/stanfordband-1600.jpg" alt="Stanford band" />
         <h3>Baby, It's All Right Now</h3>
         <p>In defense of the Stanford band</p>
-        <div class="meta"><time>January 3, 2015</time></div>
       </a>
     </li>
     <li>
       <a href="">
         <img src="images/baldeagle-1600.jpg" alt="Bald eagle" />
         <h3>Bald eagles on the Iowa River</h3>        
-        <div class="meta"><time>January 25, 2015</time></div>
       </a>
     </li>
     <li>
       <a href="">
         <img src="images/chimes-1600.jpg" alt="Chimes" />
         <h3>Electronic chimes for church steeple</h3>
-        <p>Arduino project</p>
-        <div class="meta"><time>January 01, 2015</time></div>
+        <p>Arduino project</p>        
       </a>
     </li>
   </ul>
 </section>
+<div class="postsandphotos">
 <section class="posts">
   {% for post in paginator.posts limit:4 %}
  <article role="article" itemscope itemtype="http://schema.org/BlogPosting">
@@ -60,6 +58,7 @@ layout: default
 </section>
 <section class="photos">
 </section>
+</div>
 <section class="projects">
 </section>
 </main>
