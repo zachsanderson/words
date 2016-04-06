@@ -417,7 +417,7 @@ article h2 {
 }
 article h3 {
 	font-weight: 400;
-	font-size: 1.4em;
+	font-size: 1.3em;
 	color: #61BD61;
 	margin-bottom: 0;
 }
@@ -431,7 +431,7 @@ article time {
 	margin-bottom: 0;
 }
 a.more {
-	display: block;
+	/*display: block;*/
 	text-align: right;
 }
 a.more:before {
@@ -555,6 +555,10 @@ dd {
 .photofeed li {
     flex: 0 1 48%;
 }
+.photofeed h3 {
+	font-weight: 400;
+	font-size: 1.1em;
+}
 .postsandphotos {
     display: flex;
     justify-content: space-between;
@@ -568,9 +572,41 @@ dd {
     text-decoration: none;
 }
 .postsandphotos h3 {
-    margin: 0;    
+    margin: 0;
+    line-height: 1.3em;
 }
-
+.postsandphotos article header {
+	border-bottom: 0;
+	margin-bottom: 0;
+}
+.projects {
+	padding: 0 3%;
+}
+.projectlinks {
+	list-style: none;
+	padding-left: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.projectlinks li {
+	flex: 0 1 23%;
+}
+.projectlinks a {
+    text-decoration: none;
+    color: #4d4d4d;
+}
+.projectlinks h3 {
+	font-weight: 400;
+	font-size: 1.1em;
+}
+.projectlinks a:hover h3, a:hover p {
+    color: #61BD61;
+}
+.projectlinks li a h3 {
+	margin: 0;
+	line-height: 1.3em;
+}
 /* -------------------------------------------------- 
    archive styles
 -----------------------------------------------------*/
@@ -703,7 +739,21 @@ aside li {
 
 .featuredlinks li {
     flex: 0 1 auto;
-    border-bottom: 1px solid #aaa;   
+    /*border-bottom: 1px solid #aaa;   */
+}
+.postsandphotos {
+	flex-wrap: wrap;
+}
+.postsandphotos section {
+    flex: 0 1 auto;
+    margin-bottom: 2em;
+}
+.projectlinks {
+	flex-wrap: wrap;
+}
+.projectlinks li {
+	flex: 0 1 48%;
+	padding: 0;
 }
 /* -------------------------------------------------- 
    top navigation styles
