@@ -526,7 +526,7 @@ dd {
 }
 .featuredlinks {
     list-style: none;
-    display: flex;
+    display: flex;    
     justify-content: space-between;
     padding-left: 0;
 }
@@ -543,6 +543,17 @@ dd {
 }
 .featuredlinks a:hover h3, a:hover p {
     color: #61BD61;
+}
+.photofeed {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 0;
+    margin: 0;
+}
+.photofeed li {
+    flex: 0 1 48%;
 }
 .postsandphotos {
     display: flex;
