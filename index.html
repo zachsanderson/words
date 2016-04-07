@@ -6,11 +6,13 @@ layout: default
 <section class="featured">
   <ul class="featuredlinks">
     <li>
-      <a href="">
+      {% for post in site.tags["featured"] limit:1 %}
+      <a href="{{site.baseurl}}{{post.url}}">
         <img src="images/stanfordband-1600.jpg" alt="Stanford band" />
-        <h3>Baby, It's All Right Now</h3>
+        <h3>{{post.title}}</h3>
         <p>In defense of the Stanford band</p>
       </a>
+      {% endfor %}
     </li>
     <li>
       <a href="">
