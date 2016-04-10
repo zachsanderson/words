@@ -1,0 +1,6 @@
+<figure>
+    <img src="{{ site.baseurl }}{{ include.image.url }}" alt="{{ include.image.alt }}" title="{{ include.image.alt }}">
+    {% if image.caption %}
+    <figcaption>{{ include.image.caption }}</figcaption>
+    {% endif %}
+</figure>

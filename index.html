@@ -8,7 +8,8 @@ layout: default
     <li>
       {% for post in site.tags["featured"] limit:1 %}
       <a href="{{site.baseurl}}{{post.url}}">
-        <img src="images/stanfordband-1600.jpg" alt="Stanford band" />
+        {% assign image = post.images[0] %}
+        {% include image-nocaption.html image=image %}
         <h3>{{post.title}}</h3>
         <p>In defense of the Stanford band</p>
       </a>
@@ -30,7 +31,7 @@ layout: default
   </ul>
 </section>
 <div class="postsandphotos">
-<section class="posts">
+<section>
   <h2>Other Words</h2>
   {% for post in paginator.posts limit:4 %}
  <article role="article" itemscope itemtype="http://schema.org/BlogPosting">

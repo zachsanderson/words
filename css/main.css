@@ -41,6 +41,11 @@ video {
   display: inline-block; /* 1 */
   vertical-align: baseline; /* 2 */
 }
+
+figure {
+    border: 0;
+    margin: 1em auto;
+}
 /* Links
    ========================================================================== */
 /**
@@ -406,7 +411,7 @@ nav li a {
 article header {
 	padding-bottom: 0.5em;
 	margin-bottom: 1em;
-	border-bottom: 1px solid #aaa;
+	/*border-bottom: 1px solid #aaa;*/
 }
 article h2 {
 	font-size: 2em;
@@ -860,9 +865,9 @@ body {
 	padding: 1em 3% 1em 3%;	
 }
 .posts, .archive {
-	float: right;
-	width: 70%;
-	padding-right: 2.5%;
+    width: 725px;
+    margin-left: auto;
+    margin-right: auto;
 }
 aside {
 	float: left;
@@ -926,6 +931,7 @@ nav li a:hover {
 article p {
 	font-size: 1.125em;
 	line-height: 1.4;
+    margin: 0 0 1em 0;
 }
 a.more {
 	margin: 0.5em 0;
