@@ -23,4 +23,4 @@ kramdown:
     auto_ids: false
 paginate: 4
 paginate_path: '/words/page:num/'
-permalink: /words/:title
+permalink: /:categories/:title

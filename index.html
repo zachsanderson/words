@@ -6,20 +6,28 @@ layout: default
 <section class="featured">
   <ul class="featuredlinks">
     <li>
-      {% for post in site.tags["featured"] limit:1 %}
+      {% for post in site.categories["words"] | post.tag = featured limit:1 %}
       <a href="{{site.baseurl}}{{post.url}}">
         {% assign image = post.images[0] %}
         {% include image-nocaption.html image=image %}
         <h3>{{post.title}}</h3>
-        <p>In defense of the Stanford band</p>
+        {% if post.subtitle %}
+        <p>{{post.subtitle}}</p>
+        {% endif %}
       </a>
       {% endfor %}
     </li>
     <li>
-      <a href="">
-        <img src="images/baldeagle-1600.jpg" alt="Bald eagle" />
-        <h3>Bald eagles on the Iowa River</h3>        
+      {% for post in site.categories["photos"] | post.tag = featured limit:1 %}
+      <a href="{{site.baseurl}}{{post.url}}">
+        {% assign image = post.images[0] %}
+        {% include image-nocaption.html image=image %}
+        <h3>{{post.title}}</h3> 
+        {% if post.subtitle %}
+        <p>{{post.subtitle}}</p>
+        {% endif %}       
       </a>
+      {% endfor %}
     </li>
     <li>
       <a href="">
