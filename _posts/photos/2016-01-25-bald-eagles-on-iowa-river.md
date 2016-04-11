@@ -2,8 +2,8 @@
 layout: post
 title:  "Bald eagles on the Iowa River"
 date:   2016-01-25
-tags: featured
 categories: photos
+featured: yes
 excerpt_separator: <!-- more -->
 
 images:

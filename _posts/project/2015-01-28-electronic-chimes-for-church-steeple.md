@@ -2,8 +2,8 @@
 layout: post
 title:  "Electronic chimes for church steeple"
 date:   2016-01-28
-tags: [featured]
 categories: project
+featured: yes
 excerpt_separator: <!-- more -->
 
 images:

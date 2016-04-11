@@ -8,6 +8,7 @@ layout: default
     <li>
       {% for post in site.categories["words"] %}
       {% if post.featured == true %}
+      {% assign featured_words = post.id %}
       <a href="{{site.baseurl}}{{post.url}}">
         {% assign image = post.images[0] %}
         {% include image-nocaption.html image=image %}
@@ -21,7 +22,9 @@ layout: default
       {% endfor %}
     </li>
     <li>
-      {% for post in site.categories["photos"] | where: "featured", "yes" limit:1 %}
+      {% for post in site.categories["photos"] %}
+      {% if post.featured == true %}
+      {% assign featured_photos = post.id %}
       <a href="{{site.baseurl}}{{post.url}}">
         {% assign image = post.images[0] %}
         {% include image-nocaption.html image=image %}
@@ -30,10 +33,14 @@ layout: default
         <p>{{post.subtitle}}</p>
         {% endif %}       
       </a>
+      {% break %}
+      {% endif %}
       {% endfor %}
     </li>
     <li>
-      {% for post in site.categories["project"] | post.tag == featured limit:1 %}
+      {% for post in site.categories["project"] %}
+      {% if post.featured == true %}
+      {% assign featured_project = post.id %}
       <a href="{{site.baseurl}}{{post.url}}">
         {% assign image = post.images[0] %}
         {% include image-nocaption.html image=image %}
@@ -42,14 +49,19 @@ layout: default
         <p>{{post.subtitle}}</p>
         {% endif %}       
       </a>
+      {% break %}
+      {% endif %}
       {% endfor %}
     </li>
   </ul>
 </section>
 <div class="postsandphotos">
 <section>
-  <h2>Other Words</h2>
-  {% for post in paginator.posts limit:4 %}
+  <h2>Other Words{{j}}</h2>
+  {% assign words_count = 0 %}
+  {% for post in site.categories["words"] %}
+  {% if post.id != featured_words %}
+  {% assign words_count = words_count | plus: 1 %}
  <article role="article" itemscope itemtype="http://schema.org/BlogPosting">
         <header>
             <h3><a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="Permanent Link to {{site.baseurl}}{{post.url}}">
@@ -59,19 +71,11 @@ layout: default
         </header>
         <p>{{post.summary | strip_html}} <a href="{{site.baseurl}}{{post.url}}" title="read more" class="more">Read more</a></p>
     </article>
+    {% endif %}
+    {% if words_count > 3 %}
+      {% break %}
+    {% endif %}
     {% endfor %} 
-    <div class="pagination">
-      {% if paginator.previous_page %}
-      {% if paginator.previous_page == 1 %}
-      <p class="prevLink"><a href="{{site.baseurl}}/" class="previous">newer entries</a></p>
-      {% else %}
-      <p class="prevLink"><a href="{{site.baseurl}}/words/page{{paginator.previous_page}}" class="previous">newer entries</a></p>
-      {% endif %}
-      {% endif %}
-      {% if paginator.next_page %}
-      <p class="nextLink"><a href="{{site.baseurl}}/words/page{{paginator.next_page}}" class="next">older entries</a></p>
-      {% endif %}
-    </div>
 </section>
 <section class="photos">
   <h2>Photos</h2>
