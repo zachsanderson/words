@@ -559,6 +559,10 @@ dd {
 }
 .photofeed li {
     flex: 0 1 48%;
+    margin-bottom: 1em;
+}
+.photofeed img {
+	margin-top: 0;
 }
 .photofeed h3 {
 	font-weight: 400;
