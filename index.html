@@ -6,7 +6,8 @@ layout: default
 <section class="featured">
   <ul class="featuredlinks">
     <li>
-      {% for post in site.categories["words"] | post.tag = featured limit:1 %}
+      {% for post in site.categories["words"] %}
+      {% if post.featured == true %}
       <a href="{{site.baseurl}}{{post.url}}">
         {% assign image = post.images[0] %}
         {% include image-nocaption.html image=image %}
@@ -15,10 +16,12 @@ layout: default
         <p>{{post.subtitle}}</p>
         {% endif %}
       </a>
+        {% break %}
+      {% endif %}
       {% endfor %}
     </li>
     <li>
-      {% for post in site.categories["photos"] | post.tag = featured limit:1 %}
+      {% for post in site.categories["photos"] | where: "featured", "yes" limit:1 %}
       <a href="{{site.baseurl}}{{post.url}}">
         {% assign image = post.images[0] %}
         {% include image-nocaption.html image=image %}
@@ -30,11 +33,16 @@ layout: default
       {% endfor %}
     </li>
     <li>
-      <a href="">
-        <img src="images/chimes-1600.jpg" alt="Chimes" />
-        <h3>Electronic chimes for church steeple</h3>
-        <p>Arduino project</p>        
+      {% for post in site.categories["project"] | post.tag == featured limit:1 %}
+      <a href="{{site.baseurl}}{{post.url}}">
+        {% assign image = post.images[0] %}
+        {% include image-nocaption.html image=image %}
+        <h3>{{post.title}}</h3> 
+        {% if post.subtitle %}
+        <p>{{post.subtitle}}</p>
+        {% endif %}       
       </a>
+      {% endfor %}
     </li>
   </ul>
 </section>

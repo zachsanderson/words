@@ -3,8 +3,8 @@ layout: post
 title:  "Baby, It's All Right Now"
 subtitle: "In defense of the Stanford band"
 date:   2016-01-03
-tags: [featured]
 category: words
+featured: yes
 excerpt_separator: <!-- more -->
 summary: "The Stanford band's goal was to make fun of Iowans, and it succeeded."
 
