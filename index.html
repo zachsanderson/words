@@ -102,33 +102,25 @@ layout: default
 <section class="projects">
   <h2>Projects</h2>
   <ul class="projectlinks">
+    {% assign project_count = 0 %}
+    {% for post in site.categories["project"] %}
+    {% if post.id != featured_project %}
+    {% assign project_count = project_count | plus: 1 %}
     <li>
-      <a href="">
-        <img src="images/stanfordband-1600.jpg" alt="Stanford band" />
-        <h3>Baby, It's All Right Now</h3>
-        <p>In defense of the Stanford band</p>
+      <a href="{{site.baseurl}}{{post.url}}" title="Permanent Link to {{site.baseurl}}{{post.url}}">
+        {% assign image = post.images[0] %}
+        {% include image-nocaption.html image=image %}
+        <h3>{{post.title}}</h3>
+        {% if post.subtitle %}
+        <p>{{post.subtitle}}</p>
+        {% endif %}
       </a>
     </li>
-    <li>
-      <a href="">
-        <img src="images/baldeagle-1600.jpg" alt="Bald eagle" />
-        <h3>Bald eagles on the Iowa River</h3>        
-      </a>
-    </li>
-    <li>
-      <a href="">
-        <img src="images/chimes-1600.jpg" alt="Chimes" />
-        <h3>Electronic chimes for church steeple</h3>
-        <p>Arduino project</p>        
-      </a>
-    </li>
-    <li>
-      <a href="">
-        <img src="images/chimes-1600.jpg" alt="Chimes" />
-        <h3>Electronic chimes for church steeple</h3>
-        <p>Arduino project</p>        
-      </a>
-    </li>
+    {% endif %}
+    {% if project_count > 3 %}
+      {% break %}
+    {% endif %}
+    {% endfor %}
   </ul>
 </section>
 </main>
