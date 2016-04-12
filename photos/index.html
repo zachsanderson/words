@@ -1,0 +1,126 @@
+---
+layout: default
+---
+
+<main role="main" class="cf">
+<section class="featured">
+  <ul class="featuredlinks">
+    <li>
+      {% for post in site.categories["words"] %}
+      {% if post.featured == true %}
+      {% assign featured_words = post.id %}
+      <a href="{{site.baseurl}}{{post.url}}">
+        {% assign image = post.images[0] %}
+        {% include image-nocaption.html image=image %}
+        <h3>{{post.title}}</h3>
+        {% if post.subtitle %}
+        <p>{{post.subtitle}}</p>
+        {% endif %}
+      </a>
+        {% break %}
+      {% endif %}
+      {% endfor %}
+    </li>
+    <li>
+      {% for post in site.categories["photos"] %}
+      {% if post.featured == true %}
+      {% assign featured_photos = post.id %}
+      <a href="{{site.baseurl}}{{post.url}}">
+        {% assign image = post.images[0] %}
+        {% include image-nocaption.html image=image %}
+        <h3>{{post.title}}</h3> 
+        {% if post.subtitle %}
+        <p>{{post.subtitle}}</p>
+        {% endif %}       
+      </a>
+      {% break %}
+      {% endif %}
+      {% endfor %}
+    </li>
+    <li>
+      {% for post in site.categories["project"] %}
+      {% if post.featured == true %}
+      {% assign featured_project = post.id %}
+      <a href="{{site.baseurl}}{{post.url}}">
+        {% assign image = post.images[0] %}
+        {% include image-nocaption.html image=image %}
+        <h3>{{post.title}}</h3> 
+        {% if post.subtitle %}
+        <p>{{post.subtitle}}</p>
+        {% endif %}       
+      </a>
+      {% break %}
+      {% endif %}
+      {% endfor %}
+    </li>
+  </ul>
+</section>
+<div class="postsandphotos">
+<section>
+  <h2>Other Words{{j}}</h2>
+  {% assign words_count = 0 %}
+  {% for post in site.categories["words"] %}
+  {% if post.id != featured_words %}
+  {% assign words_count = words_count | plus: 1 %}
+ <article role="article" itemscope itemtype="http://schema.org/BlogPosting">
+        <header>
+            <h3><a href="{{site.baseurl}}{{post.url}}" rel="bookmark" title="Permanent Link to {{site.baseurl}}{{post.url}}">
+                {{post.title}}</a></h3>
+            <time itemprop="dateCreated" datetime="{{post.date}}">
+                {{post.date | date:"%B %-d, %Y"}}</time>
+        </header>
+        <p>{{post.summary | strip_html}} <a href="{{site.baseurl}}{{post.url}}" title="read more" class="more">Read more</a></p>
+    </article>
+    {% endif %}
+    {% if words_count > 3 %}
+      {% break %}
+    {% endif %}
+    {% endfor %} 
+</section>
+<section class="photos">
+  <h2>Photos</h2>
+  <ul class="photofeed">
+    {% assign photos_count = 0 %}
+    {% for post in site.categories["photos"] %}
+    {% if post.id != featured_photos %}
+    {% assign photos_count = photos_count | plus: 1 %}
+    <li>
+      <a href="{{site.baseurl}}{{post.url}}" title="Permanent Link to {{site.baseurl}}{{post.url}}">
+        {% assign image = post.images[0] %}
+        {% include image-nocaption.html image=image %}
+        <h3>{{post.title}}</h3>
+      </a>
+    </li>
+    {% endif %}
+    {% if photos_count > 3 %}
+      {% break %}
+    {% endif %}
+    {% endfor %}
+  </ul>
+</section>
+</div>
+<section class="projects">
+  <h2>Projects</h2>
+  <ul class="projectlinks">
+    {% assign project_count = 0 %}
+    {% for post in site.categories["project"] %}
+    {% if post.id != featured_project %}
+    {% assign project_count = project_count | plus: 1 %}
+    <li>
+      <a href="{{site.baseurl}}{{post.url}}" title="Permanent Link to {{site.baseurl}}{{post.url}}">
+        {% assign image = post.images[0] %}
+        {% include image-nocaption.html image=image %}
+        <h3>{{post.title}}</h3>
+        {% if post.subtitle %}
+        <p>{{post.subtitle}}</p>
+        {% endif %}
+      </a>
+    </li>
+    {% endif %}
+    {% if project_count > 3 %}
+      {% break %}
+    {% endif %}
+    {% endfor %}
+  </ul>
+</section>
+</main>

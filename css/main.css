@@ -873,6 +873,28 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+.words-page {
+    max-width: 900px;
+}
+.photos-page {
+    max-width: 900px;
+}
+/*.photos-page .posts {
+    width: auto;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.photos-page .posts header {
+    width: 725px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.photos-page .posts article p {
+    width: 725px;
+    margin-left: auto;
+    margin-right: auto;
+}
+*/
 aside {
 	float: left;
 	width: 30%;
