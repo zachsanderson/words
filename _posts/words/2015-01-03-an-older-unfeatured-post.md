@@ -4,6 +4,7 @@ title:  "An older unfeatured post"
 subtitle: "In defense of the Stanford band"
 date:   2015-01-03
 category: words
+featured: no
 excerpt_separator: <!-- more -->
 summary: "The Stanford band's goal was to make fun of Iowans, and it succeeded."
 
