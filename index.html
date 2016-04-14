@@ -38,7 +38,7 @@ layout: default
       {% endfor %}
     </li>
     <li>
-      {% for post in site.categories["project"] %}
+      {% for post in site.categories["projects"] %}
       {% if post.featured == true %}
       {% assign featured_project = post.id %}
       <a href="{{site.baseurl}}{{post.url}}">
@@ -57,7 +57,7 @@ layout: default
 </section>
 <div class="postsandphotos">
 <section>
-  <h2>Other Words{{j}}</h2>
+  <a href="{{site.baseurl}}/words/"><h2>Words</h2></a>
   {% assign words_count = 0 %}
   {% for post in site.categories["words"] %}
   {% if post.id != featured_words %}
@@ -78,7 +78,7 @@ layout: default
     {% endfor %} 
 </section>
 <section class="photos">
-  <h2>Photos</h2>
+  <a href="{{site.baseurl}}/photos/"><h2>Photos</h2></a>
   <ul class="photofeed">
     {% assign photos_count = 0 %}
     {% for post in site.categories["photos"] %}
@@ -100,10 +100,10 @@ layout: default
 </section>
 </div>
 <section class="projects">
-  <h2>Projects</h2>
+  <a href="{{site.baseurl}}/projects/"><h2>Projects</h2></a>
   <ul class="projectlinks">
     {% assign project_count = 0 %}
-    {% for post in site.categories["project"] %}
+    {% for post in site.categories["projects"] %}
     {% if post.id != featured_project %}
     {% assign project_count = project_count | plus: 1 %}
     <li>

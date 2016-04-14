@@ -364,6 +364,9 @@ header h1 {
     float: left;
     display: inline;
 }
+header a h1 {
+    color: black;
+}
 header p {
 	font: 1em 'Hind Siliguri', 'Helvetica Narrow', Arial, sans-serif;
 	font-weight: 400;
@@ -584,12 +587,27 @@ dd {
     margin: 0;
     line-height: 1.3em;
 }
+.postsandphotos h2 {
+    color: #4D4D4D;
+}
+.postsandphotos a:hover h2 {
+    color: #61BD61;
+}
 .postsandphotos article header {
 	border-bottom: 0;
 	margin-bottom: 0;
 }
 .projects {
 	padding: 0 3%;
+}
+.projects a {
+    text-decoration: none;
+}
+.projects h2 {
+    color: #4D4D4D;
+}
+.projects a:hover h2 {
+    color: #61BD61;
 }
 .projectlinks {
 	list-style: none;

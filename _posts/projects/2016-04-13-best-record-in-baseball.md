@@ -3,7 +3,7 @@ layout: post
 title:  "Best Record in Baseball"
 subtitle: "Visualization in D3"
 date:   2016-04-13
-categories: project
+categories: projects
 featured: yes
 excerpt_separator: <!-- more -->
 
