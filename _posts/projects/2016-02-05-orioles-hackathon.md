@@ -18,6 +18,9 @@ images:
     -   url: /images/miltpappasandbats-1600.jpg
         alt: Milt Pappas' baseball card, his bat amongst other Oriole bats
         caption: We took a few liberties with one of Milt's baseball cards. And then found his bat hanging on the wall at Camden Yards.
+    -   url: /images/aaronalexhacking-1600.jpg
+        alt: Aaron and Alex hacking together
+        caption: A couple that hacks together stays together
     -   url: /images/expectedoutcomescards-1600.jpg
         alt: Alex, Aaron and Zach's baseball cards
         caption: I couldn't find these in Beckett's
@@ -42,7 +45,7 @@ The application requirements fit us pretty well. They asked us to answer three q
 {% assign image = page.images[2] %}
 {% include image.html image=image %}
 
-We sprinkled in some overall baseball love from the three of us and decided to go with an obscure Orioles reference for the team name: Milt Pappas and the Expected Outcomes. We explained: 
+We sprinkled in some overall baseball love for all three and decided to go with an obscure Orioles reference for the team name: Milt Pappas and the Expected Outcomes. We explained: 
 
 > As Reds fans and sympathizers, Alex Duke, Aaron Lehr and Zach Sanderson couldn't help but wonder if Bill DeWitt hosted a baseball analytics hackathon in 1965, maybe Milt would have stayed an Oriole and Frank Robinson a Red.
 
@@ -57,13 +60,16 @@ We worked to our strengths. I'll just say now though: mine were limited. The hac
 
 Aaron's strengths were definitely useful. I'd say he came out as our Opinions Guy. Sure, pretty pictures of numbers are great, but Aaron was able to best articulate why it mattered. Aaron and I talk about this stuff all the time, so I kind of knew where he stood.
 
+{% assign image = page.images[4] %}
+{% include image.html image=image %}
+
 But Alex, Alex was insane. I of course don't know her as well as a guy I've known since kindergarten. I've seen links to her Tableau visualizations and certainly saw their quality, but I'd never seen her work in real time. About 6 hours in she had put together a fantastic dashboard-esque visualization in Tableau. And then she and Aaron had a moment of doubt. "This isn't saying anything."
 
 At that point, my argument, as been-to-a-hackathon-before guy, was "Who cares. We need to ship it." That's the antithesis of me in real life. I'm constantly trying to battle my perfectionism and what better place to do it than a hackathon with the clock ticking. They overruled my vote and completely ripped the engine out. With 90 minutes left.
 
 I honestly did not come in looking to win any prizes. I knew the event itself would be fun. They were saying, "We're not going to win if we aren't saying anything." My response (mostly internal) was, "Oh well. Then we didn't win. Still fun though."
 
-{% assign image = page.images[4] %}
+{% assign image = page.images[5] %}
 {% include image.html image=image %}
 
 In the last hour, I put together a slide deck and handled some administrative-y communication stuff with the hackathon staff while Aaron and Alex put the engine back together.
@@ -72,7 +78,7 @@ Aaron was our presenter and was going to go off of bullet points that he and I p
 
 Our last bit was to present what we ended up with. Alex was sitting next to me on the floor and took over the mouse as Aaron walked through some scenarios on the dashboard. When Alex started mousing around, it was really my first time seeing it in an hour or two, since I was getting the presentation ready. I hope the judges weren't looking because I'm sure I was visibly surprised. I had no idea what she had put together in the final minutes. Every idea or suggestion Aaron said, she just hovered over or clicked and that information was presented.
 
-{% assign image = page.images[5] %}
+{% assign image = page.images[6] %}
 {% include image.html image=image %}
 
 [Go to the Tableau page to see the final interactive visualization](https://public.tableau.com/profile/alexandria4237#!/vizhome/ExpectedOutcomes/Dashboard1 "The final product")
