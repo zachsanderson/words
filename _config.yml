@@ -21,6 +21,6 @@ gems: [jekyll-paginate]
 markdown: kramdown
 kramdown:
     auto_ids: false
-paginate: 4
-paginate_path: '/words/page:num/'
+# paginate: 4
+# paginate_path: '/words/page:num/'
 permalink: /:categories/:title
