@@ -20,6 +20,7 @@ html {
 body, html {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 /* HTML5 display definitions
@@ -290,7 +291,7 @@ th {
 body {
 	font: 110% 'Amiri', Georgia, serif;
 	background: white;
-	direction: ltr;
+	direction: ltr;    
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Hind Siliguri', 'Helvetica Narrow', Arial, sans-serif;
@@ -345,6 +346,13 @@ img, object, embed {
 }
 .cb {
 	clear: both;
+}
+.pagecontainer {
+    min-height: 100%;
+    position: relative;
+}
+main {
+    padding-bottom: 10em;
 }
 
 /* -------------------------------------------------- 
@@ -733,6 +741,9 @@ aside li {
 	padding: 2em 1em;
 	margin-top: 1em;
 	color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 .legal {
 	font-size: .7em;
