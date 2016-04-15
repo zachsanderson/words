@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Electronic chimes for church steeple"
-date:   2015-12-18
+date:   2016-01-28
 categories: projects
 featured: yes
 excerpt_separator: <!-- more -->
