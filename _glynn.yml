@@ -1,7 +1,0 @@
-markdown: kramdown
-pygments: true
-auto: true
-
-ftp_host: 'ftp.fartheralongfarm.com'
-ftp_dir: '/public_html/zachsanderson'
-ftp_passive: false
