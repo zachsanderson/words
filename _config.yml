@@ -24,3 +24,5 @@ kramdown:
 # paginate: 4
 # paginate_path: '/words/page:num/'
 permalink: /:categories/:title
+
+exclude: [assets]
