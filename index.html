@@ -11,7 +11,7 @@ layout: default
       {% assign featured_words = post.id %}
       <a href="{{site.baseurl}}{{post.url}}">
         {% assign image = post.images[0] %}
-        {% include image-nocaption.html image=image %}
+        {% include image-home-header.html image=image %}
         <h3>{{post.title}}</h3>
         {% if post.subtitle %}
         <p>{{post.subtitle}}</p>
@@ -27,7 +27,7 @@ layout: default
       {% assign featured_photos = post.id %}
       <a href="{{site.baseurl}}{{post.url}}">
         {% assign image = post.images[0] %}
-        {% include image-nocaption.html image=image %}
+        {% include image-home-header.html image=image %}
         <h3>{{post.title}}</h3> 
         {% if post.subtitle %}
         <p>{{post.subtitle}}</p>
@@ -43,7 +43,7 @@ layout: default
       {% assign featured_project = post.id %}
       <a href="{{site.baseurl}}{{post.url}}">
         {% assign image = post.images[0] %}
-        {% include image-nocaption.html image=image %}
+        {% include image-home-header.html image=image %}
         <h3>{{post.title}}</h3> 
         {% if post.subtitle %}
         <p>{{post.subtitle}}</p>
@@ -87,7 +87,7 @@ layout: default
     <li>
       <a href="{{site.baseurl}}{{post.url}}" title="Permanent Link to {{site.baseurl}}{{post.url}}">
         {% assign image = post.images[0] %}
-        {% include image-nocaption.html image=image %}
+        {% include image-home.html image=image %}
         <h3>{{post.title}}</h3>
       </a>
     </li>
@@ -109,7 +109,7 @@ layout: default
     <li>
       <a href="{{site.baseurl}}{{post.url}}" title="Permanent Link to {{site.baseurl}}{{post.url}}">
         {% assign image = post.images[0] %}
-        {% include image-nocaption.html image=image %}
+        {% include image-home.html image=image %}
         <h3>{{post.title}}</h3>
         {% if post.subtitle %}
         <p>{{post.subtitle}}</p>

@@ -8,7 +8,8 @@ excerpt_separator: <!-- more -->
 
 images:
 
-    -   url: /images/missioncreekalt-1600.jpg
+    -   url: /images/missioncreekalt
+        extension: jpg
         alt: Music discussion at Mission Creek ALT
 
 ---

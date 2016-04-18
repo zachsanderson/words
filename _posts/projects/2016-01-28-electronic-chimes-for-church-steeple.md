@@ -8,7 +8,8 @@ excerpt_separator: <!-- more -->
 
 images:
 
-    -   url: /images/chimes-1600.jpg
+    -   url: /images/chimes
+        extension: jpg
         alt: Old 8-track electronic chime system
 
 ---

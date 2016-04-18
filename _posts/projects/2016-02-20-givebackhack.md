@@ -8,7 +8,8 @@ excerpt_separator: <!-- more -->
 
 images:
 
-    -   url: /images/pleaseclap-1600.jpg
+    -   url: /images/pleaseclap
+        extension: jpg
         alt: Please clap slide used at end of Capitol Capital presentation
 
 ---

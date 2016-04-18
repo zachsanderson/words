@@ -8,7 +8,8 @@ excerpt_separator: <!-- more -->
 
 images:
 
-    -   url: /images/readingtohenry-1600.jpg
+    -   url: /images/readingtohenry
+        extension: jpg
         alt: Ryan reads to Henry
 
 ---

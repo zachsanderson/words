@@ -8,7 +8,8 @@ excerpt_separator: <!-- more -->
 
 images:
 
-    -   url: /images/baldeagle-1600.jpg
+    -   url: /images/baldeagle
+        extension: jpg
         alt: Bald eagle soaring over Iowa City
 
 ---

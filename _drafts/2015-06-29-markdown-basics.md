@@ -40,7 +40,7 @@ Would be rendered in HTML as:
 {% highlight html %}
 <h1 class="intro">My main heading</h1>
     <p>This is my initial paragraph. In it I’d like to provide a link to the <a href="http://jekyllrb.com/" title="Jekyll">Jekyll homepage</a>. I want to add <strong>bold</strong> and <em>italic</em> formatting to text as well using the <code>strong</code> and <code>emphasis</code> tags.</p>
-	<p>This is another paragraph. I’d like to follow it with an unordered list.</p>
+    <p>This is another paragraph. I’d like to follow it with an unordered list.</p>
     <ul>
         <li>item 1</li>
         <li>item 2</li>

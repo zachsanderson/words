@@ -8,23 +8,30 @@ excerpt_separator: <!-- more -->
 
 images:
 
-    -   url: /images/orioleshackathon-1600.jpg
+    -   url: /images/orioleshackathon
+        extension: jpg
         alt: Flyer advertising the 2016 Orioles baseball hackathon
-    -   url: /images/hackathonposter-1600.jpg
+    -   url: /images/hackathonposter
+        extension: jpg
         alt: Flyer advertising the 2016 Orioles baseball hackathon
-    -   url: /images/miltpappasteam-1600.jpg
+    -   url: /images/miltpappasteam
+        extension: jpg
         alt: Alex, Aaron and Zach around Frank Robinson's jersey
         caption: Alex, Aaron and I with our favorite Red, er, Oriole
-    -   url: /images/miltpappasandbats-1600.jpg
+    -   url: /images/miltpappasandbats
+        extension: jpg
         alt: Milt Pappas' baseball card, his bat amongst other Oriole bats
         caption: We took a few liberties with one of Milt's baseball cards. And then found his bat hanging on the wall at Camden Yards.
-    -   url: /images/aaronalexhacking-1600.jpg
+    -   url: /images/aaronalexhacking
+        extension: jpg
         alt: Aaron and Alex hacking together
         caption: A couple that hacks together stays together
-    -   url: /images/expectedoutcomescards-1600.jpg
+    -   url: /images/expectedoutcomescards
+        extension: jpg
         alt: Alex, Aaron and Zach's baseball cards
         caption: I couldn't find these in Beckett's
-    -   url: /images/situationalpitching-1600.jpg
+    -   url: /images/situationalpitching
+        extension: jpg
         alt: Screenshot of Situational Pitching data visualization
         
 ---

@@ -9,7 +9,8 @@ excerpt_separator: <!-- more -->
 
 images:
 
-    -   url: /images/bestrecord-1600.png
+    -   url: /images/bestrecord
+        extension: png
         alt: Best Record in Baseball data visualization screenshot
 
 ---

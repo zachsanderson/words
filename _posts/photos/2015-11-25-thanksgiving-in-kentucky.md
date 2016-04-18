@@ -8,7 +8,8 @@ excerpt_separator: <!-- more -->
 
 images:
 
-    -   url: /images/moonbow-1600.jpg
+    -   url: /images/moonbow
+        extension: jpg
         alt: Moonbow over Cumberland Falls
 
 ---

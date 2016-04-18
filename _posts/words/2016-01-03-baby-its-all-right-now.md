@@ -10,18 +10,23 @@ summary: "The Stanford band's goal was to make fun of Iowans, and it succeeded."
 
 images:
 
-    -   url: /images/stanfordband-1600.jpg
+    -   url: /images/stanfordband
+        extension: jpg
         alt: Stanford band
-    -   url: /images/tuskensnare-1600.jpg
+    -   url: /images/tuskensnare
+        extension: jpg
         alt: Tusken raider conductor; Stanford snare drummer
-        caption: Tusken raider gaderffii &gt; drum major mace; You might recognize this drummer from [Jimmy Kimmel](https://www.youtube.com/watch?v=iHjLy8cKseE "Stanford cowbell on Jimmy Kimmel")
-    -   url: /images/allofthelights-1600.jpg
+        caption: Tusken raider gaderffii &gt; drum major mace; You might recognize this drummer from <a href="https://www.youtube.com/watch?v=iHjLy8cKseE">Jimmy Kimmel</a>
+    -   url: /images/allofthelights
+        extension: jpg
         alt: Stanford band playing 'All of the Lights'
         caption: Stanford band playing 'All of the Lights' at the 2011 NCAA Tennis Tournament. This song was a single in November 2010 and they're playing it in May 2011. When did Freddie Mercury die?
-    -   url: /images/stanfordtree-1600.jpg
+    -   url: /images/stanfordtree
+        extension: jpg
         alt: The Stanford Dollies and the Tree before a football game
         caption: They know their tree is ugly. No need to point it out.
-    -   url: /images/bandtouchdown-1600.jpg
+    -   url: /images/bandtouchdown
+        extension: jpg
         alt: The Stanford band cheers a touchdown during a UCLA game
         caption: Look at how much fun they're having winning football games
 

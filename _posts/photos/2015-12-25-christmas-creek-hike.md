@@ -8,7 +8,8 @@ excerpt_separator: <!-- more -->
 
 images:
 
-    -   url: /images/creekhike-1600.jpg
+    -   url: /images/creekhike
+        extension: jpg
         alt: Dad carries Ana across the creek
 
 ---

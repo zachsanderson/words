@@ -79,7 +79,7 @@ Here’s a sample of some of the more commonly used tags in templates:
 {% highlight liquid %}
     {{"{% for post in site.posts "}}%}
       <li>
-	  <a href="{{"{{ post.url "}}}}">{{"{{ post.title "}}}}</a>
+      <a href="{{"{{ post.url "}}}}">{{"{{ post.title "}}}}</a>
       </li>
 {{"{% endfor "}}%}
 {% endhighlight %}

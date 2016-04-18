@@ -1,0 +1,6 @@
+<img src="{{ site.baseurl }}{{ include.image.url }}-{{ site.medium_size }}.{{ include.image.extension }}" 
+        alt="{{ include.image.alt }}"
+        srcset="{{ site.baseurl }}{{ include.image.url }}-{{ site.small_size}}.{{ include.image.extension}} {{site.small_size}}w,
+                {{ site.baseurl }}{{ include.image.url }}-{{ site.medium_size}}.{{ include.image.extension}} {{site.medium_size}}w,
+                {{ site.baseurl }}{{ include.image.url }}-{{ site.large_size}}.{{ include.image.extension}} {{site.large_size}}w"
+        sizes="350px">

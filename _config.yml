@@ -26,3 +26,8 @@ kramdown:
 permalink: /:categories/:title
 
 exclude: [assets]
+
+#Image variables
+small_size: 400
+medium_size: 700
+large_size: 1400
