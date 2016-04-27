@@ -21,7 +21,7 @@ Although I still had a bunch of questions, I thought it'd be best to get my hand
 
 Craig Robinson (Flip Flop Fly Ball) is great. He's a great artist and baseball fan. He's a dude who is from England, discovered baseball while visiting the US with his job in Germany, then watched the Blue Jays while living in Toronto and now lives in Mexico City. I've grown up around baseball and compared to Craig's history, watching it for me was pretty effortless.
 
-I've followed Craig's work for some time, and I love seeing what I saw as a 4 year old through the eyes of an adult discovering it for the first time. Plus, as an artist, Craig is able to visually articulate thoughts I've had but couldn't get out of my brain. I'll admit even as an adult I dream about cool locations for ball fields. Occasionally Craig would just throw up a sketch of a ball field and I'm just like "That's it! That's a ball field I want to see!"
+I've followed Craig's work for some time, and I love seeing what I saw as a 4 year old through the eyes of an adult discovering it for the first time. Plus, as an artist, Craig is able to visually articulate thoughts I've had but couldn't get out of my brain. I'll admit even as an adult I dream about cool locations for ball fields. Occasionally Craig would just throw up a sketch of a ball field and I'm like "That's it! That's a ball field I want to see!"
 
 Here are a few of his sketches:
 
@@ -35,7 +35,7 @@ Here are a few of his sketches:
 
 Besides his sketches, Craig also has really unique ideas on the other medium of choice for baseball fans: numbers. He doesn't do necessarily the deep number crunching of a sabermetrician but comes up with some very clear thoughts on things that stand out in baseball.
 
-For "The Best Record in Baseball", the one I linked at the top, Craig has visualized an interesting issue that highlights the effect of wild cards and divisions on the outcome of the Playoffs and World Series. Craig's design is a clean but static one. As I've learned about D3 and started seeing clean visuals being made with it, I always thought this would be a great target.
+For "The Best Record in Baseball", Craig has visualized an interesting issue that highlights the effect of wild cards and divisions on the outcome of the Playoffs and World Series. Craig's design is a clean but static one. As I've learned about D3 and started seeing clean visuals being made with it, I always thought this would be a great target.
 
 So it's not an original idea but I thought it would first, be good practice for me in learning D3 and second, would allow me to expand on it with some features that let you dig a little deeper into each team/season.
 

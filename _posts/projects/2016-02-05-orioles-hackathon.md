@@ -94,7 +94,7 @@ Aaron's explanation was perfect. Alex's demonstration was perfect. I even advanc
 
 I was a lot more confident when we finished, but I didn't know how the judges would see it. 
 
-When they came out to announce the winners, one of the judges prefaced the awards with emphasis on the ability to present your findings. He really hammered on this. This made the guy inside me who wishes he knew more R feel like he was getting punched, but it made the guy who was riding on Alex and Aaron's coattails feel even more confident.
+When they came out to announce the winners, one of the judges prefaced the awards with emphasis on the ability to present your findings. He really hammered on this. This made the guy inside me who wishes he knew more R feel like he was getting punched, but it made the guy who was on a visually driven team feel even more confident.
 
 There was one team I was especially worried about. They presented on the success rates of consecutive pitch types. That idea was just too perfect and I turned to Aaron and said "Winner."
 
